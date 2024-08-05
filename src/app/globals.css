@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  background-color: theme('colors.main-bg');
+  color: theme('colors.primary');
+}
+
+.main-container {
+  padding: 0 1rem;
+  margin: 6rem auto 6rem;
+  width: 100%;
+}
