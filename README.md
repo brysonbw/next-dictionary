@@ -7,6 +7,9 @@
   Search for word definitions using [Dictionary API](https://dictionaryapi.dev/) . Find detailed meanings, synonyms, and antonyms.
 </div>
 
+## Visit:
+https://next-dictionary-app.vercel.app/
+
 ## Usage
 
 ```bash
