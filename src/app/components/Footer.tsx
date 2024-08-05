@@ -1,10 +1,20 @@
+import Github from '@/assets/icons/Github';
 import Link from 'next/link';
 
 export default function Footer() {
   return (
     <footer className="text-center mt-auto text-xs">
       <div className="mt-16 flex flex-col items-center">
-        <div className="mb-2 flex space-x-2 text-sm text-[#18181B] dark:text-gray-400">
+        {/** GitHub Icon Repo Link */}
+        <a
+          className="transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 hover:no-underline"
+          target="_blank"
+          href="https://github.com/brysonbw/next-dictionary"
+        >
+          <Github className="w-8 h-8" />
+        </a>
+
+        <div className="mb-2 mt-2 flex space-x-2 text-sm text-[#18181B] dark:text-gray-400">
           <div>
             Powered By {''}
             <span className="ml-[.1em]">
