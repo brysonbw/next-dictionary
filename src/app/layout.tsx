@@ -12,8 +12,32 @@ export const metadata: Metadata = {
   title: 'Dictionary | Home',
   description:
     'Search for word definitions. Find detailed meanings, synonyms, antonyms, and more to enhance your vocabulary and understanding of language.',
+  // Open Graph Metadata
+  openGraph: {
+    title: 'Dictionary | Home',
+    description:
+      'Search for word definitions. Find detailed meanings, synonyms, antonyms, and more to enhance your vocabulary and understanding of language.',
+    url: 'https://next-dictionary-app.vercel.app/',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/ddlhtsgmp/image/upload/v1722821033/dictionary_app.png',
+      },
+    ],
+    type: 'website',
+  },
+  // Twitter Card Metadata
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Dictionary | Home',
+    description:
+      'Search for word definitions. Find detailed meanings, synonyms, antonyms, and more to enhance your vocabulary and understanding of language.',
+    images: [
+      {
+        url: 'https://res.cloudinary.com/ddlhtsgmp/image/upload/v1722821033/dictionary_app.png',
+      },
+    ],
+  },
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
